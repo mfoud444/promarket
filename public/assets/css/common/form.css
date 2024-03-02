@@ -1,0 +1,103 @@
+/*** create***/
+.control-label {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  .form-horizontal {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #009879; */
+    padding: 20px;
+    gap: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="number"],
+  .form-group input[type="tags"],
+  .form-group input[type="tel"],
+  textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #4070f4;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+  
+    transition: all 0.2s ease;
+  }
+  .form-group input[type="text"]:hover {
+    border: 1px solid #1c7980;
+  }
+  .form-group select {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #4070f4;
+    border-radius: 6px;
+    background-color: #fff;
+    outline: none;
+    appearance: none; /* Remove default arrow icon in some browsers */
+  }
+  
+  .form-group select:hover {
+    border: 1px solid #1c7980;
+  }
+  
+  .btn-success {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px;
+  }
+  
+  .btn-reset {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #f4409a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px;
+  }
+  .btn-default {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #f4409a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+

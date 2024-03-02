@@ -1,0 +1,25 @@
+
+Root Admin
+email	: rootadmin@gmail.com
+pass	: 123456789
+
+Content Manager
+email	: contentmanager@gmail.com
+pass	: 123456789
+	
+Technical Operator
+email	: technicaloperator@gmail.com
+pass	: 123456789
+
+Sales Manager
+email	: salesmanager@gmail.com
+pass	: 123456789
+
+
+
+
+Customar 
+
+email	: user2@gmail.com
+pass	: 123456789
+

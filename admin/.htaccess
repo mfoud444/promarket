@@ -1,0 +1,11 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Define the base directory
+RewriteBase /promarket/admin/
+
+# Redirect all requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?request=$1 [QSA,L]
+

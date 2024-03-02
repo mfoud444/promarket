@@ -1,0 +1,41 @@
+/********888
+
+breadcrumb
+
+  ****************/
+
+  .breadcrumb {
+
+	display: flex;
+	align-items: center;
+	gap: 5px;
+    background-color: var(--thr-color);
+	/* line-height: 0; */
+	margin-bottom: 10px;
+	list-style: none;
+    font-size: 1.3em;
+	font-weight: bold;
+    padding: 1rem;
+    border-radius: 0.5rem;
+	
+}
+
+.breadcrumb .active{
+	color: var(--main-color);
+	text-decoration: none;
+}
+.breadcrumb a , i{
+	
+
+	color: var(--black-color);
+	
+}
+
+.breadcrumb a,
+.breadcrumb span {
+	display: flex;
+	align-items: center;
+}
+.breadcrumb-icons a:hover {
+	text-decoration: underline;
+}

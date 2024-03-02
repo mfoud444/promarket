@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: "Times New Roman", Times, serif;
+}
+a{
+	text-decoration: none;
+}
+body,
+button,
+input,
+textarea {
+	font-family: "Times New Roman", Times, serif;
+}
+body {
+	background-color: #f3e8ff;
+	transition: all 0.5s ease;
+}
+.flex-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
